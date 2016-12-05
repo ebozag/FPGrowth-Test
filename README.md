@@ -9,6 +9,11 @@ The arguments are:
 ```
 ./scriptChangeToFPGrowthInputFormat.sh tracefile.dat 2
 ```
+This script will produce 2 output files:
+
+- <tracefile>-pattern   -> Includes the correlation between the original ID and the new ID
+- <tracefile>-transformed.txt -> The trace with replaced object IDs.
+
 
 ### Script to group records in a "transaction".
 
